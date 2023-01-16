@@ -1,0 +1,29 @@
+.button {
+    display: block;
+    width: fit-content;
+    padding: 15px 40px;
+    border-radius: 4px;
+    border: 1px solid $border-c;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    &.white-bg {
+        color: $title-c;
+        background-color: $white;
+        &:hover {
+            background-color: $main-blue;
+            color: $white;
+            border-color: $main-blue;
+        }
+    }
+    &.bg-blue {
+        color: $white;
+        background-color: $main-blue;
+        border-color: $main-blue;
+        &:hover {
+            background-color: $title-c;
+            color: $white;
+            border-color: $title-c;
+        }
+    }
+}
